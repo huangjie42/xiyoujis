@@ -1,0 +1,702 @@
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  width: 15rem;
+  margin: 0 auto;
+  font-family: Arial, Helvetica;
+  background: #fffcf5;
+}
+.top-header {
+  width: 15rem;
+  height: 0.9rem;
+}
+.name {
+  width: 2.5rem;
+  height: 0.5rem;
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 0.9rem;
+  float: right;
+  text-align: right;
+  margin-right: 0.2rem;
+}
+.top-header a img {
+  float: right;
+  margin: 0.06rem 0 0;
+  width: 0.84rem;
+  height: 0.84rem;
+  border-radius: 50%;
+}
+.corner {
+  width: 0rem;
+  height: 0rem;
+  border: 0.1rem solid #A9A9A9;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 5px;
+}
+.logox {
+  left: 0.5rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  float: left;
+  margin-left: 0.5rem;
+}
+.logox img {
+  width: 100%;
+  height: 100%;
+}
+.logox-text {
+  width: 3.18rem;
+  height: 0.8rem;
+  font-size: 0.6rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 0.8rem;
+  letter-spacing: 0.02rem;
+  left: 1.56rem;
+  float: left;
+  margin-left: 0.4rem;
+}
+.banner {
+  width: 15rem;
+  height: 4.8rem;
+  margin-top: 0.06rem;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.video {
+  width: 15rem;
+  height: 10.56rem;
+  display: block;
+  margin-top: 0.4rem;
+}
+.video-h1 {
+  width: 12.4rem;
+  height: 0.8rem;
+  font-size: 0.6rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 0.72rem;
+  letter-spacing: 0.02rem;
+  margin-left: 0.52rem;
+}
+.video-top {
+  display: none;
+}
+.video-box {
+  width: 14.04rem;
+  height: 7.96rem;
+  border-radius: 0.22rem;
+  border: 0.2rem solid #c6544c;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.46rem;
+}
+.hr222 {
+  width: 95%;
+  border: 0.01rem solid #ccc;
+  margin: 0.72rem auto;
+  margin-top: -0.06rem;
+}
+.right-title {
+  width: 10.48rem;
+  height: 1.28rem;
+  background: #c6544c;
+  border-radius: 0.24rem;
+  border: 0.04rem solid #776969;
+  font-size: 0.6rem;
+  font-family: Helvetica;
+  color: #ffffff;
+  line-height: 1.28rem;
+  letter-spacing: 0.04rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.rtimg {
+  display: none;
+}
+.right-top {
+  display: none;
+}
+.tips {
+  display: none;
+}
+.right-three {
+  display: none;
+}
+.text2 {
+  display: none;
+}
+.right-event {
+  display: none;
+}
+.hr {
+  display: none;
+}
+.right-min {
+  width: 13.72rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1.1rem;
+}
+.right-min img {
+  width: 2.16rem;
+  height: 2.16rem;
+  border-radius: 50%;
+}
+.dialog {
+  width: 14.04rem;
+  height: 3.3rem;
+  background: #ffffff;
+  border-radius: 0.16rem;
+  border: 0.02rem solid #5a323c;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+.dialog p {
+  width: 12.4rem;
+  font-size: 0.48rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 0.9rem;
+  margin: 0.6rem auto;
+  text-align: left;
+}
+.right-text {
+  width: 3.96rem;
+  height: 0.84rem;
+  font-size: 0.64rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 0.76rem;
+  letter-spacing: 0.02rem;
+  margin: 0 auto;
+  margin-top: 0.84rem;
+}
+.right-p {
+  width: 13.78rem;
+  height: 1.6rem;
+  font-size: 0.56rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 0.8rem;
+  letter-spacing: 0.1em;
+  margin: 0.4rem auto;
+}
+.right-box {
+  display: block;
+  width: 15rem;
+  height: 7.9rem;
+  margin-top: 0.4rem;
+}
+.box1 {
+  width: 6.6rem;
+  height: 5.16rem;
+  background: #ffffff;
+  border-radius: 0.12rem;
+  border: 0.04rem solid #b4a0a0;
+  margin-left: 0.48rem;
+  float: left;
+  background: url(../img/左边.png) no-repeat;
+  background-size: 90% 70%;
+  background-position: 0.32rem 0.34rem;
+  text-align: center;
+  line-height: 1.8rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  letter-spacing: 0.02rem;
+}
+.box2 {
+  width: 6.6rem;
+  height: 5.16rem;
+  background: #ffffff;
+  border-radius: 0.12rem;
+  border: 0.04rem solid #b4a0a0;
+  margin-left: 0.48rem;
+  float: left;
+  background: url(../img/右边.png) no-repeat;
+  background-size: 90% 70%;
+  background-position: 0.32rem 0.34rem;
+  text-align: center;
+  line-height: 1.8rem;
+  color: #ffffff;
+  font-family: Helvetica;
+  letter-spacing: 0.02rem;
+}
+.box11 {
+  width: 3.96rem;
+  height: 1.68rem;
+  background: #c6544c;
+  border-radius: 0.8rem;
+  font-size: 0.72rem;
+  font-family: Helvetica;
+  color: #ffffff;
+  line-height: 1.7rem;
+  letter-spacing: 0.06rem;
+  margin: 0 auto;
+  margin-top: 4.2rem;
+}
+.box22 {
+  width: 3.96rem;
+  height: 1.68rem;
+  background: #c6544c;
+  border-radius: 0.8rem;
+  font-size: 0.72rem;
+  font-family: Helvetica;
+  color: #ffffff;
+  line-height: 1.7rem;
+  letter-spacing: 0.06rem;
+  margin: 0 auto;
+  margin-top: 4.2rem;
+}
+.box1 a {
+  width: 3rem;
+  display: block;
+  height: 0.38rem;
+  font-size: 0.48rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 0.34rem;
+  letter-spacing: 0.02rem;
+  margin-top: 0.48rem;
+}
+.box2 a {
+  width: 3rem;
+  display: block;
+  height: 0.38rem;
+  font-size: 0.48rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 0.34rem;
+  letter-spacing: 0.02rem;
+  margin-top: 0.48rem;
+}
+.hr2 {
+  display: none;
+}
+.main-top {
+  width: 14rem;
+  margin: 0 auto;
+}
+.top1 {
+  float: left;
+}
+.top1 img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.top2 {
+  float: left;
+  font-size: 0.48rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 1.2rem;
+  letter-spacing: 0.04rem;
+  margin-left: 0.2rem;
+}
+.top3 {
+  float: left;
+  margin-left: 0.2rem;
+}
+.top3 a img {
+  height: 0.46rem;
+  width: 0.86rem;
+}
+.top4 {
+  float: right;
+}
+.top4 a {
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #b4a0a0;
+  line-height: 0.28rem;
+  letter-spacing: 0.02rem;
+}
+.back {
+  width: 15rem;
+  height: 6rem;
+  margin-top: 2rem;
+}
+.one {
+  width: 6.8rem;
+  height: 5.36rem;
+  float: left;
+  background: #ffffff;
+  margin-top: 0.4rem;
+  margin-left: 0.44rem;
+}
+.one img {
+  width: 100%;
+  height: 3.82rem;
+}
+.one-text {
+  width: 7rem;
+  height: 0.42rem;
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 0.6rem;
+  margin-left: 0.36rem;
+  margin-top: 0.02rem;
+}
+.two {
+  width: 6.8rem;
+  height: 5.36rem;
+  background: #ffffff;
+  float: right;
+  margin-right: 0.44rem;
+  margin-top: 0.4rem;
+}
+.two img {
+  width: 100%;
+  height: 3.82rem;
+}
+.two-text {
+  width: 7rem;
+  height: 0.42rem;
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 0.6rem;
+  margin-left: 0.36rem;
+  margin-top: 0.02rem;
+}
+.three {
+  display: none;
+}
+.circle {
+  border: solid 0.06rem black;
+  border-radius: 1rem;
+  height: 1rem;
+  position: absolute;
+  width: 1rem;
+  line-height: 1rem;
+  margin: 1.4rem 0 0 3rem !important;
+}
+.circle:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+.circle-play {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.2rem 0 0.2rem 0.4rem;
+  border-color: transparent transparent transparent black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -0.2rem 0 0 -0.14rem;
+}
+.main-tips {
+  width: 14.04rem;
+  height: 3.92rem;
+  background: #ffffff;
+  border-radius: 0.24rem;
+  border: 0.04rem solid #b4a0a0;
+  margin: 0 auto;
+}
+.main-tips-text {
+  width: 11.76rem;
+  height: 2.16rem;
+  font-size: 0.48rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 0.72rem;
+  letter-spacing: 0.04rem;
+  overflow: hidden;
+  float: right;
+  margin-right: 0.48rem;
+}
+.demoSpan1 {
+  height: 0.8rem;
+  width: 0.8rem;
+  display: block;
+  position: relative;
+  left: 0.5rem;
+  top: 0.6rem;
+  opacity: 0.9;
+}
+.demoSpan1 img {
+  width: 100%;
+  height: 100%;
+}
+.comment {
+  width: 14.04rem;
+  height: 25rem;
+  background: #ffffff;
+  border-radius: 0.46rem;
+  border: 0.04rem solid #b4a0a0;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0.48rem;
+}
+.bli {
+  width: 0.36rem;
+  height: 1.24rem;
+  position: absolute;
+  top: -0.9rem;
+  left: 1rem;
+}
+.bli img {
+  width: 100%;
+  height: 100%;
+}
+.bri {
+  width: 0.36rem;
+  height: 1.24rem;
+  position: absolute;
+  top: -0.9rem;
+  right: 1rem;
+}
+.bri img {
+  width: 100%;
+  height: 100%;
+}
+.comment-item {
+  width: 13.08rem;
+  height: 2.4rem;
+  border-radius: 0.24rem;
+  border: 0.04rem solid #b4a0a0;
+  margin: 0 auto;
+  margin-top: 1.44rem;
+}
+.comment-item img {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-top: 0.9rem;
+  margin-left: 0.48rem;
+  float: left;
+}
+.comment-item-text {
+  float: left;
+  width: 6.4rem;
+  height: 0.48rem;
+  font-size: 0.2rem;
+  font-family: MicrosoftYaHei;
+  color: #b4a0a0;
+  letter-spacing: 0.04rem;
+  margin-top: 0.9rem;
+  margin-left: 0.4rem;
+}
+.comment-in {
+  float: right;
+  margin-top: 15px;
+}
+.comment-in-d {
+  width: 2.16rem;
+  height: 0.84rem;
+  background: #c6544c;
+  border-radius: 0.4rem;
+  display: block;
+  float: right;
+  margin-right: 0.1rem;
+}
+.comment-in-d span {
+  font-size: 0.48rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #b4a0a0;
+  letter-spacing: 0.02rem;
+  display: block;
+  margin: 0.2rem auto;
+  text-align: center;
+}
+.comment-in-z {
+  width: 2.16rem;
+  height: 0.84rem;
+  background: white;
+  border-radius: 0.4rem;
+  border: 0.04rem solid #b4a0a0;
+  display: block;
+  float: right;
+  margin-right: 0.3rem;
+}
+.comment-in-z span {
+  font-size: 0.48rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #b4a0a0;
+  letter-spacing: 0.02rem;
+  display: block;
+  margin: 0.2rem auto;
+  text-align: center;
+}
+.comment-in-z:hover {
+  background: #c6544c;
+}
+.order {
+  margin-top: 0.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  float: left;
+}
+.order .line {
+  display: inline-block;
+  width: 3.6rem;
+  border-top: 1px solid #D9D2D2;
+}
+.order .txt {
+  color: #B4A0A0;
+  font-size: 0.28rem;
+  vertical-align: middle;
+}
+.biao {
+  display: none;
+}
+.comment-com {
+  width: 13.2rem;
+  height: 8.2rem;
+  margin: 0 auto;
+}
+.com-head img {
+  width: 1.12rem;
+  height: 1.12rem;
+  border-radius: 50%;
+  margin-right: 0.2rem;
+  margin-top: 0.1rem;
+  float: left;
+}
+.oid {
+  margin-top: 2rem;
+  margin-left: -10px;
+}
+.oid li {
+  /* line-height: 18px; */
+  list-style: none;
+  margin-top: 0.4rem;
+}
+.oid li:first-child {
+  /* width:80px; */
+  width: 2.72rem;
+  font-size: 0.48rem;
+  font-family: Helvetica;
+  color: #5a323c;
+  letter-spacing: 0.04rem;
+}
+.oid li:nth-child(2) {
+  width: 4.28rem;
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #b4a0a0;
+  letter-spacing: 0.04rem;
+  margin-top: 0.3rem;
+}
+.com-text {
+  width: 11.2rem;
+  height: 2.1rem;
+  font-size: 0.48rem;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  letter-spacing: 0.04rem;
+  margin: 0 auto;
+  margin-left: 1.4rem;
+}
+.com-huifu {
+  float: right;
+  width: 2rem;
+  height: 0.38rem;
+  margin-right: 0.72rem;
+  margin-top: 0.6rem;
+}
+.com-huifu img {
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.com-huifu a {
+  width: 0.88rem;
+  height: 0.52rem;
+  font-size: 0.4rem;
+  font-family: MicrosoftYaHei;
+  color: #b4a0a0;
+  letter-spacing: 0.04rem;
+}
+.hr777 {
+  margin-top: -1rem;
+}
+.fore {
+  display: none;
+}
+.fly {
+  display: none;
+}
+.xiaozhi {
+  display: none;
+}
+.xiyouji {
+  display: none;
+}

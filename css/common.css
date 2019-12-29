@@ -1,0 +1,106 @@
+.w {
+    width: 1920px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    border: 6px solid rgba(0, 0, 0, 0);
+    box-shadow: 8px 0 0 #A5ADB7 inset;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: 8px 0 0 #4A4A4A inset;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.biao {
+    float: left;
+}
+
+.test33 {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 8px solid #EAEAEA;
+    /* opacity: 0.8; */
+    position: relative;
+
+}
+
+.box33 {
+    width: 30px;
+    height: 28px;
+    background: #EAEAEA;
+    /* opacity: 0.8; */
+}
+
+.text44 {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 3px solid #B4A0A0;
+    opacity: 3;
+    position: absolute;
+    left: -5px;
+    top: 8px;
+}
+
+.corner {
+    width: 0px;
+    /*  宽高设置为0，很重要，否则达不到效果 */
+    height: 0px;
+    border: 5px solid #A9A9A9;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    float: right;
+    margin-top: 21px;
+}
+
+.circle {
+    border: solid 3px white;
+    border-radius: 50px;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.circle-play {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -7px;
+}

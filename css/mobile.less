@@ -1,0 +1,804 @@
+@import "commons";
+
+@baseFont: 50;
+
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 15rem;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+    background: rgba(255, 252, 245, 1);
+}
+
+.top-header {
+    // display: flex;
+    // position: fixed;
+    // top: 0;
+    // left: 50%;
+
+    // transform: translateX(-50%);
+    width: 15rem;
+    height: 45rem / @baseFont;
+    // background-color: red;
+    // border: 1px solid red;
+}
+
+.name {
+    width: 2.5rem;
+    height: 0.5rem;
+    font-size: 20rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    line-height: 45rem / @baseFont;
+    float: right;
+    text-align: right;
+    margin-right: 0.2rem;
+    // position: fixed;
+    // right: 48rem / @baseFont;
+
+
+}
+
+.top-header a img {
+    float: right;
+    margin: 3rem / @baseFont 0 0;
+    width: 42rem / @baseFont;
+    height: 42rem / @baseFont;
+    border-radius: 50%;
+    // margin-right: rem;
+    // position: fixed;
+    // right: 170rem / @baseFont;
+}
+
+.corner {
+    width: 0rem;
+    height: 0rem;
+    border: 5rem / @baseFont solid #A9A9A9;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    float: right;
+    margin-top: 25rem / @baseFont;
+    margin-right: 5px;
+    // position: fixed;
+}
+
+.logox {
+    // position: fixed; 
+    left: 25rem / @baseFont;
+    width: 45rem / @baseFont;
+    height: 45rem / @baseFont;
+    float: left;
+    margin-left: 0.5rem;
+}
+
+.logox img {
+    width: 100%;
+    height: 100%;
+}
+
+.logox-text {
+    width: 159rem / @baseFont;
+    height: 40rem / @baseFont;
+    font-size: 30rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    line-height: 40rem / @baseFont;
+    letter-spacing: 1rem / @baseFont;
+    // position: fixed;
+    left: 78rem / @baseFont;
+    float: left;
+    margin-left: 0.4rem;
+}
+
+.banner {
+    width: 15rem;
+    height: 240rem / @baseFont;
+    margin-top: 3rem / @baseFont;
+    // border: 1px solid red;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    width: 15rem;
+    height: 528rem / @baseFont;
+    // border: 1px solid black; 
+    // position: absolute;
+    display: block;
+    margin-top: 20rem / @baseFont;
+}
+
+.video-h1 {
+    width: 620rem / @baseFont;
+    height: 40rem / @baseFont;
+    font-size: 30rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    line-height: 36rem / @baseFont;
+    letter-spacing: 1rem / @baseFont;
+    margin-left: 26rem / @baseFont;
+
+}
+
+.video-top {
+    display: none;
+}
+
+.video-box {
+    width: 702rem / @baseFont;
+    height: 398rem / @baseFont;
+    border-radius: 11rem / @baseFont;
+    border: 10rem / @baseFont solid rgba(198, 84, 76, 1);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 23rem / @baseFont;
+}
+
+.hr222 {
+    width: 95%;
+    border: 0.5rem / @baseFont solid #ccc;
+    margin: 36rem / @baseFont auto;
+    margin-top: -3rem / @baseFont;
+}
+
+.right-title {
+    width: 524rem / @baseFont;
+    height: 64rem / @baseFont;
+    background: rgba(198, 84, 76, 1);
+    border-radius: 12rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(119, 105, 105, 1);
+    font-size: 30rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 1);
+    line-height: 64rem / @baseFont;
+    letter-spacing: 2rem / @baseFont;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rtimg {
+    display: none;
+}
+
+.right-top {
+    display: none;
+}
+
+.right-p {
+    // display: none;
+}
+
+.tips {
+    display: none;
+}
+
+.right-three {
+    display: none;
+}
+
+.text2 {
+    display: none;
+}
+
+.right-event {
+    display: none;
+}
+
+.hr {
+    display: none;
+}
+
+.right-min {
+    width: 686rem / @baseFont;
+    // margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 55rem / @baseFont;
+}
+
+.right-min img {
+    width: 108rem / @baseFont;
+    height: 108rem / @baseFont;
+    border-radius: 50%;
+
+}
+
+.dialog {
+    width: 702rem / @baseFont;
+    height: 165rem / @baseFont;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8rem / @baseFont ;
+    border: 1rem / @baseFont solid rgba(90, 50, 60, 1);
+    margin: 0 auto;
+    margin-top: 25rem / @baseFont;
+}
+
+.dialog p {
+    width: 620rem / @baseFont;
+    font-size: 24rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    line-height: 45rem / @baseFont;
+    margin: 30rem / @baseFont auto;
+    text-align: left;
+    // letter-spacing:1rem / @baseFont;
+}
+
+.right {
+    // border: 5px solid red;
+}
+
+.right-text {
+    width: 198rem / @baseFont;
+    height: 42rem / @baseFont;
+    font-size: 32rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    line-height: 38rem / @baseFont;
+    letter-spacing: 1rem / @baseFont;
+    margin: 0 auto;
+    margin-top: 42rem / @baseFont;
+
+}
+
+.right-p {
+    width: 689rem / @baseFont;
+    height: 80rem / @baseFont;
+    font-size: 28rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    line-height: 40rem / @baseFont;
+    letter-spacing: 5em / @baseFont;
+    margin: 20rem / @baseFont auto;
+    // border: 1px solid red;
+}
+
+.right-box {
+    display: block;
+    width: 15rem;
+    height: 7.9rem;
+    margin-top: 20rem / @baseFont;
+}
+
+.box1 {
+    width: 330rem / @baseFont;
+    height: 258rem / @baseFont;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 6rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(180, 160, 160, 1);
+    margin-left: 24rem / @baseFont;
+    float: left;
+    background: url(../img/左边.png) no-repeat;
+    background-size: 90% 70%;
+
+    background-position: 16rem / @baseFont 17rem / @baseFont;
+    text-align: center;
+    line-height: 90rem / @baseFont;
+    color: rgba(255, 255, 255, 1);
+    font-family: Helvetica;
+    letter-spacing: 1rem / @baseFont;
+    // display: block;
+}
+
+.box2 {
+    width: 330rem / @baseFont;
+    height: 258rem / @baseFont;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 6rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(180, 160, 160, 1);
+    margin-left: 24rem / @baseFont;
+    float: left;
+    background: url(../img/右边.png) no-repeat;
+    background-size: 90% 70%;
+
+    background-position: 16rem / @baseFont 17rem / @baseFont;
+    text-align: center;
+    line-height: 90rem / @baseFont;
+    color: rgba(255, 255, 255, 1);
+    font-family: Helvetica;
+    letter-spacing: 1rem / @baseFont;
+}
+
+.box11 {
+    width: 198rem / @baseFont;
+    height: 84rem / @baseFont;
+    background: rgba(198, 84, 76, 1);
+    border-radius: 40rem / @baseFont;
+
+    font-size: 36rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.7rem;
+    letter-spacing: 3rem / @baseFont;
+    margin: 0 auto;
+    margin-top: 4.2rem;
+}
+
+.box22 {
+    width: 198rem / @baseFont;
+    height: 84rem / @baseFont;
+    background: rgba(198, 84, 76, 1);
+    border-radius: 40rem / @baseFont;
+
+    font-size: 36rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.7rem;
+    letter-spacing: 3rem / @baseFont;
+    margin: 0 auto;
+    margin-top: 4.2rem;
+}
+
+.box1 a {
+    width: 150rem / @baseFont;
+    display: block;
+    height: 19rem / @baseFont;
+    font-size: 24rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    line-height: 17rem / @baseFont;
+    letter-spacing: 1rem / @baseFont;
+    margin-top: 24rem / @baseFont;
+}
+
+.box2 a {
+    width: 150rem / @baseFont;
+    display: block;
+    height: 19rem / @baseFont;
+    font-size: 24rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    line-height: 17rem / @baseFont;
+    letter-spacing: 1rem / @baseFont;
+    margin-top: 24rem / @baseFont;
+}
+
+.hr2 {
+    display: none;
+}
+
+.main {
+    // position: relative;
+    // top:7.9rem;
+}
+
+.main-top {
+    width: 14rem;
+    margin: 0 auto;
+    // height: 25rem / @baseFont;
+}
+
+.top1 {
+    float: left;
+
+}
+
+.top1 img {
+    width: 30rem / @baseFont;
+    height: 30rem / @baseFont;
+}
+
+.top2 {
+    float: left;
+    font-size: 24rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    line-height: 60rem / @baseFont;
+    letter-spacing: 2rem / @baseFont;
+    margin-left: 10rem / @baseFont;
+}
+
+.top3 {
+    float: left;
+    margin-left: 10rem / @baseFont;
+}
+
+.top3 a img {
+    height: 23rem / @baseFont;
+    width: 43rem / @baseFont;
+}
+
+.top4 {
+    float: right;
+}
+
+.top4 a {
+
+    font-size: 20rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(180, 160, 160, 1);
+    line-height: 14rem / @baseFont;
+    letter-spacing: 1rem / @baseFont;
+}
+
+.back {
+    width: 15rem;
+    height: 300rem / @baseFont;
+    // border: 1px solid aqua; 
+    margin-top: 100rem / @baseFont;
+}
+
+.one {
+    width: 340rem / @baseFont;
+    height: 268rem / @baseFont;
+    // border:5px solid red;
+    float: left;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 20rem / @baseFont;
+    margin-left: 22rem / @baseFont;
+
+}
+
+.one img {
+    width: 100%;
+    height: 191rem / @baseFont;
+}
+
+.one-text {
+    width: 7rem;
+    height: 21rem / @baseFont;
+    font-size: 20rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    line-height: 30rem / @baseFont;
+    margin-left: 18rem / @baseFont;
+    margin-top: 1rem / @baseFont;
+
+
+
+}
+
+.two {
+    width: 340rem / @baseFont;
+    height: 268rem / @baseFont;
+    // border:5px solid red;
+    background: rgba(255, 255, 255, 1);
+    float: right;
+    margin-right: 22rem / @baseFont;
+
+    margin-top: 20rem / @baseFont;
+}
+
+.two img {
+    width: 100%;
+    height: 191rem / @baseFont;
+}
+
+.two-text {
+    width: 350rem / @baseFont;
+    height: 21rem / @baseFont;
+    font-size: 20rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    line-height: 30rem / @baseFont;
+    margin-left: 18rem / @baseFont;
+    margin-top: 1rem / @baseFont;
+}
+
+.three {
+    display: none;
+}
+
+.circle {
+    border: solid 3rem / @baseFont black;
+    border-radius: 50rem / @baseFont;
+    height: 50rem / @baseFont;
+    position: absolute;
+    width: 50rem / @baseFont;
+    line-height: 50rem / @baseFont;
+    margin: 70rem / @baseFont 0 0 150rem / @baseFont  !important;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.circle-play {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10rem / @baseFont 0 10rem / @baseFont 20rem / @baseFont;
+    border-color: transparent transparent transparent black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10rem / @baseFont 0 0 -7rem / @baseFont;
+}
+
+.main-tips {
+    width: 702rem / @baseFont;
+    height: 196rem / @baseFont;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(180, 160, 160, 1);
+    margin: 0 auto;
+}
+
+.main-tips-text {
+    width: 588rem / @baseFont;
+    height: 108rem / @baseFont;
+    font-size: 24rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    line-height: 36rem / @baseFont;
+    letter-spacing: 2rem / @baseFont;
+    // border: 1px solid red;
+    overflow: hidden;
+    float: right;
+    margin-right: 24rem / @baseFont;
+
+}
+
+.demoSpan1 {
+    height: 40rem / @baseFont;
+    width: 40rem / @baseFont;
+    display: block;
+    position: relative;
+    left: 25rem / @baseFont;
+    top: 30rem / @baseFont;
+    opacity: 0.9;
+}
+
+.demoSpan1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.comment {
+    // margin-top: 25px;
+    width: 702rem / @baseFont;
+    height: 25rem;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 23rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(180, 160, 160, 1);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 24rem / @baseFont;
+}
+
+.bli {
+    width: 18rem / @baseFont;
+    height: 62rem / @baseFont;
+    position: absolute;
+    top: -45rem / @baseFont;
+    left: 1rem;
+
+}
+
+.bli img {
+    width: 100%;
+    height: 100%;
+}
+
+.bri {
+    width: 18rem / @baseFont;
+    height: 62rem / @baseFont;
+    position: absolute;
+    top: -45rem / @baseFont;
+    right: 1rem;
+}
+
+.bri img {
+    width: 100%;
+    height: 100%;
+}
+
+.comment-item {
+    width: 654rem / @baseFont;
+    height: 120rem / @baseFont;
+    border-radius: 12rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(180, 160, 160, 1);
+    margin: 0 auto;
+    margin-top: 72rem / @baseFont;
+}
+
+.comment-item img {
+    width: 30rem / @baseFont;
+    height: 30rem / @baseFont;
+    margin-top: 45rem / @baseFont;
+    margin-left: 24rem / @baseFont;
+    float: left;
+}
+
+.comment-item-text {
+    float: left;
+    width: 320rem / @baseFont;
+    height: 24rem / @baseFont;
+    font-size: 10rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(180, 160, 160, 1);
+    letter-spacing: 2rem / @baseFont;
+    margin-top: 45rem / @baseFont;
+    margin-left: 20rem / @baseFont;
+}
+
+.comment-in {
+    float: right;
+    margin-top: 15px;
+
+}
+
+
+.comment-in-d {
+    width: 108rem / @baseFont;
+    height: 42rem / @baseFont;
+    background: rgba(198, 84, 76, 1);
+    border-radius: 20rem / @baseFont;
+    display: block;
+    float: right;
+    margin-right: 5rem / @baseFont;
+}
+
+.comment-in-d span {
+
+    font-size: 24rem / @baseFont;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(180, 160, 160, 1);
+    letter-spacing: 1rem / @baseFont;
+    display: block;
+    margin: 10rem / @baseFont auto;
+    text-align: center;
+}
+
+.comment-in-z {
+    width: 108rem / @baseFont;
+    height: 42rem / @baseFont;
+    background: white;
+    border-radius: 20rem / @baseFont;
+    border: 2rem / @baseFont solid rgba(180, 160, 160, 1);
+    display: block;
+    float: right;
+    margin-right: 15rem / @baseFont;
+}
+
+.comment-in-z span {
+
+    font-size: 24rem / @baseFont;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(180, 160, 160, 1);
+    letter-spacing: 1rem / @baseFont;
+    display: block;
+    margin: 10rem / @baseFont auto;
+    text-align: center;
+}
+
+.comment-in-z:hover {
+    background: rgba(198, 84, 76, 1);
+}
+
+.order {
+    margin-top: 20rem / @baseFont;
+    height: 60rem / @baseFont;
+    line-height: 60rem / @baseFont;
+    float: left;
+}
+
+.order .line {
+    display: inline-block;
+    width: 180rem / @baseFont;
+    border-top: 1px solid #D9D2D2;
+}
+
+.order .txt {
+    color: #B4A0A0;
+    font-size: 14rem / @baseFont;
+    vertical-align: middle;
+}
+
+.biao {
+    display: none;
+}
+
+.comment-com {
+    width: 660rem / @baseFont;
+    height: 8.2rem;
+    // border: 1rem / @baseFont solid red;
+    margin: 0 auto;
+}
+
+.com-head img {
+    width: 56rem / @baseFont;
+    height: 56rem / @baseFont;
+    border-radius: 50%;
+    margin-right: 10rem / @baseFont;
+    margin-top: 5rem / @baseFont;
+    float: left;
+}
+
+.oid {
+    margin-top: 2rem;
+    margin-left: -10px;
+}
+
+.oid li {
+    /* line-height: 18px; */
+    list-style: none;
+    margin-top: 20rem / @baseFont;
+
+}
+
+.oid li:first-child {
+    /* width:80px; */
+    width: 136rem / @baseFont;
+    font-size: 24rem / @baseFont;
+    font-family: Helvetica;
+    color: rgba(90, 50, 60, 1);
+    letter-spacing: 2rem / @baseFont;
+}
+
+.oid li:nth-child(2) {
+    width: 214rem / @baseFont;
+    font-size: 20rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(180, 160, 160, 1);
+    letter-spacing: 2rem / @baseFont;
+    margin-top: 15rem / @baseFont;
+
+}
+
+.com-text {
+    width: 560rem / @baseFont;
+    height: 105rem / @baseFont;
+    font-size: 24rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(90, 50, 60, 1);
+    letter-spacing: 2rem / @baseFont;
+    margin: 0 auto;
+    margin-left: 70rem / @baseFont;
+}
+
+.com-huifu {
+    float: right;
+    width: 100rem / @baseFont;
+    height: 19rem / @baseFont;
+    margin-right: 36rem / @baseFont;
+    margin-top: 30rem / @baseFont;
+}
+
+.com-huifu img {
+    width: 22rem / @baseFont;
+    height: 22rem / @baseFont;
+}
+
+.com-huifu a {
+    width: 44rem / @baseFont;
+    height: 26rem / @baseFont;
+    font-size: 20rem / @baseFont;
+    font-family: MicrosoftYaHei;
+    color: rgba(180, 160, 160, 1);
+    letter-spacing: 2rem / @baseFont;
+}
+
+.hr777 {
+    margin-top: -1rem;
+}
+
+.fore {
+    display: none;
+}
+
+.fly {
+    display: none;
+}
+
+.xiaozhi {
+    display: none;
+}
+
+.xiyouji {
+    display: none;
+}
